@@ -1,0 +1,51 @@
+!SESSION 2024-02-16 22:57:51.387 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-02-16 22:58:36.108
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-02-16 22:58:36.119
+!MESSAGE Log4j2 initialized with config file D:\NT1_automotive\Master_Embedded_System\Unit_Embedded_C\Lesson1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-02-16 22:58:42.062
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-16 23:30:59.560
+!MESSAGE Indexed 'LAB_ONE' (3 sources, 53 headers) in 2.78 sec: 1,950 declarations; 2,831 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-17 00:56:27.811
+!MESSAGE Indexed 'LAB_ONE' (3 sources, 53 headers) in 1.26 sec: 1,961 declarations; 2,858 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.041%)
+!SESSION 2024-02-17 11:32:03.579 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-02-17 11:32:26.426
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-02-17 11:32:26.488
+!MESSAGE Log4j2 initialized with config file D:\NT1_automotive\Master_Embedded_System\Unit_Embedded_C\Lesson1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-02-17 11:32:36.691
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-17 11:41:50.936
+!MESSAGE Indexed 'LAB_ONE' (3 sources, 53 headers) in 0.508 sec: 1,961 declarations; 2,855 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-17 11:42:32.020
+!MESSAGE Indexed 'LAB_ONE' (3 sources, 53 headers) in 0.328 sec: 1,961 declarations; 2,855 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-17 11:48:07.644
+!MESSAGE Indexed 'LAB_ONE' (3 sources, 53 headers) in 0.253 sec: 1,959 declarations; 2,848 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-17 11:48:33.486
+!MESSAGE Indexed 'LAB_ONE' (3 sources, 53 headers) in 0.265 sec: 1,959 declarations; 2,848 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-17 11:49:02.377
+!MESSAGE Indexed 'LAB_ONE' (3 sources, 53 headers) in 0.246 sec: 1,961 declarations; 2,855 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
