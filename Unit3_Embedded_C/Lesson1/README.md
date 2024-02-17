@@ -1,4 +1,5 @@
-#Simulation of First LAB
 
+# Simulation of First LAB
 
-![TOGGLE_LED](Toggle_LED.gif)
+  <img src="Toggle_LED.gif" align = "center" alt="Alt text" title="Toggle led ">
+<!--   ![TOGGLE_LED](Toggle_LED.gif)   -->
