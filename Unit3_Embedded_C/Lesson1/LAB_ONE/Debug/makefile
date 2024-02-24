@@ -65,8 +65,8 @@ all: main-build
 main-build: LAB_ONE.elf secondary-outputs
 
 # Tool invocations
-LAB_ONE.elf LAB_ONE.map: $(OBJS) $(USER_OBJS) D:\NT1_automotive\Master_Embedded_System\Unit_Embedded_C\Lesson1\LAB_ONE\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "LAB_ONE.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\NT1_automotive\Master_Embedded_System\Unit_Embedded_C\Lesson1\LAB_ONE\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LAB_ONE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+LAB_ONE.elf LAB_ONE.map: $(OBJS) $(USER_OBJS) D:\NT1_automotive\Master_Embedded_System\Unit3_Embedded_C\Lesson1\LAB_ONE\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "LAB_ONE.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\NT1_automotive\Master_Embedded_System\Unit3_Embedded_C\Lesson1\LAB_ONE\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LAB_ONE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
