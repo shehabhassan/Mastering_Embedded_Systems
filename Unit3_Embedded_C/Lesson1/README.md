@@ -1,5 +1,5 @@
 
 # Simulation of First LAB
 
-  <img src = "Toggle_LED.gif" align = "centre" >
+ <a align = "centre" > <img src = "Toggle_LED.gif" > </a> 
 <!--   ![TOGGLE_LED](Toggle_LED.gif)   -->
