@@ -1,0 +1,46 @@
+!SESSION 2024-03-05 23:17:37.752 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-05 23:18:47.416
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-05 23:18:47.428
+!MESSAGE Log4j2 initialized with config file E:\NT1_automotive\Master_Embedded_System\Unit3_Embedded_C\Lesson1\LAB_ONE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-05 23:18:52.710
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-03-05 23:22:40.442 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/E:/NT1_automotive/Master_Embedded_System/Unit3_Embedded_C/Lesson1/LAB_ONE/
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-05 23:22:47.604
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-05 23:22:47.605
+!MESSAGE Log4j2 initialized with config file E:\NT1_automotive\Master_Embedded_System\Unit3_Embedded_C\Lesson1\LAB_ONE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-05 23:22:53.198
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-03-05 23:23:22.581 -----------------------------------------------
+eclipse.buildId=Version 1.13.2
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  E:\NT1_automotive\Master_Embedded_System\Unit3_Embedded_C\Lesson1\LAB_ONE\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 E:\NT1_automotive\Master_Embedded_System\Unit3_Embedded_C\Lesson1\LAB_ONE\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-05 23:23:46.995
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-05 23:23:46.997
+!MESSAGE Log4j2 initialized with config file E:\NT1_automotive\Master_Embedded_System\Unit3_Embedded_C\Lesson1\LAB_ONE\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-05 23:23:53.004
+!MESSAGE Started RMI Server, listening on port 41337

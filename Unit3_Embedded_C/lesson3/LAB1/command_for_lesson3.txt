@@ -1,0 +1,22 @@
+../qemu/qemu-system-arm.exe
+
+
+ path for sumlator : C:\Program Files (x86)\qemu 
+
+  arm-none-eabi-gcc.exe -c -g -I . -mcpu=arm926ej-s app.c -o app.o
+  arm-none-eabi-gcc.exe -c -g -I . -mcpu=arm926ej-s UART.c -o UART.o 
+  arm-none-eabi-as.exe -mcpu=arm926ej-s -g startup.s -o startup.o
+
+
+  arm-none-eabi-objdump.exe -s app.o
+
+
+  arm-none-eabi-ld.exe -T linker_script.ld  startup.o UART.o app.o -o learn_in_depth.elf  
+  arm-none-eabi-ld.exe -T linker_script.ld  startup.o UART.o app.o -o learn_in_depth.elf -Map=Map_file.map
+
+  arm-none-eabi-nm.exe  learn_in_depth.elf
+  arm-none-eabi-objdump.exe  -h learn_in_depth.elf
+
+  arm-none-eabi-objcopy.exe -O binary learn_in_depth.elf learn_in_depth.bin
+
+  ../qemu/qemu-system-arm.exe -M versatilepb-m 128M-nographic-kernel learn_in_depth.bin
