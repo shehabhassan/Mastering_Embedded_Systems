@@ -16,7 +16,7 @@ SRC	    = $(wildcard *.c)
 OBJ	 	= $(SRC:.c=.o) # same as OBJS (patsubst %.c, %.o, $(SRC)
 ASM  	= $(wildcard *.s)
 ASMOBJ  = $(ASM:.s=.o)
-project_name = LAB2_TOGGLE_LED
+project_name = LAB1_TOGGLE
 all: $(project_name).hex
 	@echo "==================="
 	@echo "Building is done"
