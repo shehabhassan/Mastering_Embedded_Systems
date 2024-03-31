@@ -1,7 +1,10 @@
 # UNIT 2 C PROGRAMMING
 <h1 align = "centre" > Here we are include the all homeworks for 8 leassons.</h1>
 
-<p1 algin = "centre" ><img src = "certficate.png"> <img> </p1>
+
+<p align="center">
+  <img src="certficate.png" alt="Certificate logo"> <img>
+  </p>
 
 ## Lessons Learned
 
