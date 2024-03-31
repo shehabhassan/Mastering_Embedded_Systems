@@ -50,14 +50,41 @@ void Add_New_Student()
 }
 void Delete_Student()
 {
-
+    // create temp ID Read ID from student user.
+     uint8_t temp_text[20];
+     printf("Please Enter the Student ID \n");
+     fflush(stdin);
+     gets(temp_text);
+     int ID = atoi(temp_text);  
+    /* create the two pointers */
+     Student_Node_t *selectedNodeStudent = HeadP_student;
+     Student_Node_t *previuseNodeStudent = NULL;
+     while (selectedNodeStudent != NULL)
+     {
+          if (selectedNodeStudent->Student.ID == ID)
+          {
+               printf("The Student ID is Deleted \n");
+               if (previuseNodeStudent == NULL)
+               {
+                    HeadP_student = selectedNodeStudent->PNextStudent;
+               }else
+               {
+                    previuseNodeStudent->PNextStudent = selectedNodeStudent->PNextStudent;
+               }
+               free(selectedNodeStudent);
+               return 1;
+          }
+          previuseNodeStudent = selectedNodeStudent;
+          selectedNodeStudent = selectedNodeStudent->PNextStudent;
+     }
+     printf("The Student ID is not found \n");
 }
 void View_All_student()
 {
- // create current node student . 
-  Student_Node_t *CurrentNodeStudent;
+     // create current node student . 
+     Student_Node_t *CurrentNodeStudent;
      // check if the head is null
-     int count = 0;
+      int count = 0;
      if (HeadP_student == NULL)
      {
           printf("There is no student in the linked list \n");
@@ -69,16 +96,15 @@ void View_All_student()
           {
                printf("==================================\n");
                printf("Number of Records %d\n",count);
-               printf("Student ID : %d \n",CurrentNodeStudent->Student.ID);
-               printf("Student Name : %s \n",CurrentNodeStudent->Student.Name);
-               printf("Student Hight : %d \n",CurrentNodeStudent->Student.Hight);
-               printf("==================================\n");
+               printf("ID   :%d, ",CurrentNodeStudent->Student.ID);
+               printf("Name :%s, ",CurrentNodeStudent->Student.Name);
+               printf("Hight:%d  ",CurrentNodeStudent->Student.Hight);
+               printf("\n==================================\n");
                CurrentNodeStudent = CurrentNodeStudent->PNextStudent;
                count++;
           }
      }     
 }
-
 void Delete_All_Student()
 {
 // create current node student . 
@@ -101,5 +127,118 @@ void Delete_All_Student()
 
 }
 
+uint32_t Get_ID_Student(Student_Node_t *student, uint32_t Node_index)
+{
+     // create current node student . 
+     Student_Node_t *CurrentNodeStudent;
+     // check if the head is null 
+     int count = 0;
+     if (HeadP_student == NULL)
+     {
+          printf("There is no student in the linked list \n");
+     }else
+     {
+          // loop to print all student in the linked list
+          CurrentNodeStudent = HeadP_student;
+          while(CurrentNodeStudent != NULL)
+          {
+               if (count == Node_index)
+               {
+                    return CurrentNodeStudent->Student.ID;
+               }
+               CurrentNodeStudent = CurrentNodeStudent->PNextStudent;
+               count++;
+          }
+     }     
+     return 0;
+}
+
+int Print_Length_node(Student_Node_t *student)
+{
+     // create current node student . 
+     Student_Node_t *CurrentNodeStudent;
+     // check if the head is null 
+     int count = 0;
+     if (HeadP_student == NULL)
+     {
+          printf("There is no student in the linked list \n");
+     }else
+     {
+          // loop to print all student in the linked list
+          CurrentNodeStudent = HeadP_student;
+          while(CurrentNodeStudent != NULL)
+          {
+               CurrentNodeStudent = CurrentNodeStudent->PNextStudent;
+               count++;
+          }
+     }     
+     // printf("The Length of the linked list is : %d\n",count);
+     return count;
+}
 
 
+void print_node_Selected_node(Student_Node_t *student, uint32_t Node_index)
+{
+     // create current node student . 
+     Student_Node_t *CurrentNodeStudent;
+     // check if the head is null 
+     int count = 0;
+     int node_from_last = Print_Length_node(student) - Node_index + 1;
+     if (HeadP_student == NULL)
+     {
+          printf("There is no student in the linked list \n");
+     }else
+     {
+          // loop to print all student in the linked list
+          CurrentNodeStudent = HeadP_student;
+          while(CurrentNodeStudent != NULL)
+          {
+               if (count == node_from_last)
+               {
+                    printf("==================================\n");
+                    printf("Number of Records %d\n",count);
+                    printf("ID   :%d, ",CurrentNodeStudent->Student.ID);
+                    printf("Name :%s, ",CurrentNodeStudent->Student.Name);
+                    printf("Hight:%d  ",CurrentNodeStudent->Student.Hight);
+                    printf("\n==================================\n");
+                    return;
+               }
+               CurrentNodeStudent = CurrentNodeStudent->PNextStudent;
+               count++;
+          }
+     }     
+     printf("The Node is not found \n");
+}
+
+void print_Middle_node(Student_Node_t *student)
+{
+     // create current node student . 
+     Student_Node_t *CurrentNodeStudent;
+     // check if the head is null 
+     int count = 0;
+     int length = Print_Length_node(student);
+     if (HeadP_student == NULL)
+     {
+          printf("There is no student in the linked list \n");
+     }else
+     {
+          // loop to print all student in the linked list
+          CurrentNodeStudent = HeadP_student;
+          while(CurrentNodeStudent != NULL)
+          {
+               if (count == length/2)
+               {
+                    printf("==================================\n");
+                    printf("Number of Records %d\n",count);
+                    printf("ID   :%d, ",CurrentNodeStudent->Student.ID);
+                    printf("Name :%s, ",CurrentNodeStudent->Student.Name);
+                    printf("Hight:%d  ",CurrentNodeStudent->Student.Hight);
+                    printf("\n==================================\n");
+                    return;
+               }
+               CurrentNodeStudent = CurrentNodeStudent->PNextStudent;
+               count++;
+          }
+     }     
+     printf("The Node is not found \n");
+}

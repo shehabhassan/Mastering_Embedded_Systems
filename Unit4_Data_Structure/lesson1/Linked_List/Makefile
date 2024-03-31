@@ -5,12 +5,12 @@
 CC      = gcc
 CPPFAGS = -Wall -O0 -g 
 SOURCE  = $(wildcard *.c) 
-TARGET = linkedList.exe   
+TARGET  = linkedList.exe   
 
 linkedList:clean 
 	$(CC) $(CPPFAGS) $(SOURCE) -o $(TARGET)  
 
-run: 
+run:linkedList
 	./linkedList.exe
 
 clean:

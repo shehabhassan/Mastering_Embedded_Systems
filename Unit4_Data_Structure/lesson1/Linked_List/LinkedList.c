@@ -25,30 +25,30 @@ int main(void) {
           printf("2)- Delete Student \n");
           printf("3)- View_All_student \n");
           printf("4)- Delete ALL Student \n");
-          printf("5)- End Of The Program \n");
+          printf("5)- Get ID from Last index \n");
+          printf("6)- Get ID from number index \n");
+          printf("7)- End Of The Program \n");
    	    scanf("%d",&Choice);
                if (Choice == 1)
-               {
-               /* code */
-                         Add_New_Student();
-               }
+               {Add_New_Student();}
                else if (Choice == 2)
-               {
-               /* code */
-                              Delete_Student();
-               }
+               {Delete_Student();}
                else if (Choice == 3)
-               {
-               /* code */
-               View_All_student();
-               }
+               {View_All_student();}
                else if (Choice == 4)
-               {
-               /* code */
-               Delete_All_Student();
-               }else if(Choice == 5){
-                break;
+               {Delete_All_Student();}
+               else if(Choice == 5){
+                 printf("Please Enter the number of last index \n");
+                uint8_t index1;
+                scanf("%d",&index1);
+                 print_node_Selected_node(HeadP_student, index1);
                }
+               else if (Choice == 6){
+                printf("Please Enter the number of index \n");
+                uint8_t index;
+                scanf("%d",&index);
+                 printf("ID of student is : %d\n",Get_ID_Student(HeadP_student, index));
+               }else if(Choice == 7){break;}
 }
 	return EXIT_SUCCESS;
 }

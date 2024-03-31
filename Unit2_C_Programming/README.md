@@ -20,6 +20,9 @@ learn in depth of c programming.
 - [LESSON8](https://github.com/shehabhassan/Mastering_Embedded_Systems/tree/master/Unit2_C_Programming/Lesson8_pointer)
 - [MID_TERM](https://github.com/shehabhassan/Mastering_Embedded_Systems/tree/master/Unit2_C_Programming/MidTerm_Answer)
 
+
+<img src = "certficate.png" ><img>
+
 ## Authors
 - [@SHEHABHASSAN](https://github.com/shehabhassan)
 

@@ -45,5 +45,7 @@ void Add_New_Student();
 void Delete_Student();
 void View_All_student();
 void Delete_All_Student();
-
+uint32_t Get_ID_Student(Student_Node_t *student, uint32_t Node_index);
+int Print_Length_node(Student_Node_t *student);
+void print_node_Selected_node(Student_Node_t *student, uint32_t Node_index); 
 #endif /* _LINKED_LIST_H_ */
