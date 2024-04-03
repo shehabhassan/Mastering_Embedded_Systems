@@ -1,15 +1,17 @@
-
 # UNIT 2 C PROGRAMMING
-
-Here we are include the all homeworks for 8 leassons.
-
+<h1 align = "centre" > Here we are include the all homeworks for 8 leassons.</h1>
 
 
+<p align="center">
+  <img src="certficate.png" alt="Certificate logo"> <img>
+  </p>
 
 ## Lessons Learned
 
 learn in depth of c programming. 
+
 # Table Of Contents
+
 - [LESSON1](https://github.com/shehabhassan/Mastering_Embedded_Systems/tree/master/Unit2_C_Programming/Lesson1_Installing_c_Tools)
 - [LESSON2](https://github.com/shehabhassan/Mastering_Embedded_Systems/tree/master/Unit2_C_Programming/Lesson2_Git_Repository)
 - [LESSON3](https://github.com/shehabhassan/Mastering_Embedded_Systems/tree/master/Unit2_C_Programming/Lesson3_Basic)
@@ -20,8 +22,6 @@ learn in depth of c programming.
 - [LESSON8](https://github.com/shehabhassan/Mastering_Embedded_Systems/tree/master/Unit2_C_Programming/Lesson8_pointer)
 - [MID_TERM](https://github.com/shehabhassan/Mastering_Embedded_Systems/tree/master/Unit2_C_Programming/MidTerm_Answer)
 
-
-<img src = "certficate.png" ><img>
 
 ## Authors
 - [@SHEHABHASSAN](https://github.com/shehabhassan)
